@@ -41,9 +41,9 @@ Dieses Repository existiert, damit solche Ideen nicht als lose Chat-Fragmente li
 
 ## Struktur
 
-- [`docs/01_scope.md`](docs/01_scope.md) – was dieses Repository ist und was nicht
-- [`docs/02_module_template.md`](docs/02_module_template.md) – Standardform eines Moduleintrags
-- [`docs/03_chain_positioning.md`](docs/03_chain_positioning.md) – wie Modulideen zur Kette stehen
+- [`docs/01_scope_DE.md`](docs/01_scope_DE.md) – was dieses Repository ist und was nicht
+- [`docs/02_module_template_DE.md`](docs/02_module_template_DE.md) – Standardform eines Moduleintrags
+- [`docs/03_chain_positioning_DE.md`](docs/03_chain_positioning_DE.md) – wie Modulideen zur Kette stehen
 - [`modules/001_example_module.md`](modules/001_example_module.md) – Beispiel für einen Modulkandidaten
 - [`indexes/by_chain.md`](indexes/by_chain.md) – nach wahrscheinlicher Kettenposition gruppiert
 - [`indexes/by_domain.md`](indexes/by_domain.md) – nach Domäne gruppiert
