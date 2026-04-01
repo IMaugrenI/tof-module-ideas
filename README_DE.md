@@ -1,13 +1,19 @@
 # ToF Module Ideas
 
-> Die englischen Dateien sind die Primärtexte in diesem Repository. Ein deutscher Klon liegt in `README_DE.md`.
+> Deutsch ist die Spiegelversion dieses Repositories. Der englische Primärtext liegt in `README.md`.
 
 Öffentliches Ideen- und Kandidaten-Repository für größere ToF-Modulkonzepte, die später zu echten Services, Containern, Workern oder kettenrelevanten Bausteinen werden können.
 
-Dieses Repository veröffentlicht **nicht** die vollständige interne V7-Runtime, ihre aktive Systemwahrheit oder sensible Umsetzungstiefe.  
-Es dient als reduzierter Ideen- und Übersetzungsraum für modulgroße Konzepte, bevor sie zu echten Runtime-Elementen werden.
+Dieses Repository dient als öffentlich sicherer Ideen- und Übersetzungsraum für modulgroße Konzepte, bevor sie zu echten Runtime-Elementen werden.
 
-## Was dieses Repository ist
+## Kurzüberblick
+
+- sammelt größere Modulideen vor der Umsetzung
+- beschreibt wahrscheinliche Kettenpositionen und Domänenzuordnung
+- hält Offenheit und Unsicherheit vor der Runtime-Übersetzung sichtbar
+- gehört zur breiteren öffentlichen Repo-Familie rund um die private ToF / V’eth-Projektlinie
+
+## Wofür dieses Repository da ist
 
 Dieses Repository ist ein strukturierter Raum für:
 
@@ -16,6 +22,31 @@ Dieses Repository ist ein strukturierter Raum für:
 - das Sichtbarmachen von Grenzen
 - das Bewahren von Offenheit vor der Umsetzung
 - die Vorbereitung späterer Übersetzung nach V7
+
+## Kernidee
+
+Manche Modulideen sind groß genug, um zu einer eigenen strukturellen Einheit zu werden.
+
+Dieses Repository existiert, damit solche Ideen nicht als lose Chat-Fragmente liegen bleiben und nicht ohne sauberen Rahmen direkt in die Runtime geschoben werden.
+
+## Wie dieses Repo in die öffentliche Repo-Familie passt
+
+- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) = breiter öffentlicher Projektrahmen und architektonischer Einstiegspunkt
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) = lauffähiger lokaler Builder-Raum
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = lauffähiger lokaler Knowledge-Raum
+- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) = Recovery-/Werkbank-Baseline für älteres gemischtes Material
+- [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) = Bridge-Planning-Baseline für vorbereitete Bausteine
+- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) = engere V7-Grenzlesart
+- dieses Repo = Modul-Kandidatenebene vor der Umsetzung
+
+## Struktur
+
+- [`docs/01_scope.md`](docs/01_scope.md) – was dieses Repository ist und was nicht
+- [`docs/02_module_template.md`](docs/02_module_template.md) – Standardform eines Moduleintrags
+- [`docs/03_chain_positioning.md`](docs/03_chain_positioning.md) – wie Modulideen zur Kette stehen
+- [`modules/001_example_module.md`](modules/001_example_module.md) – Beispiel für einen Modulkandidaten
+- [`indexes/by_chain.md`](indexes/by_chain.md) – nach wahrscheinlicher Kettenposition gruppiert
+- [`indexes/by_domain.md`](indexes/by_domain.md) – nach Domäne gruppiert
 
 ## Was dieses Repository nicht ist
 
@@ -26,21 +57,6 @@ Dieses Repository ist nicht:
 - stille Freigabeplanung
 - vollständige Umsetzung
 - Produktiv-Service-Dokumentation
-
-## Kernidee
-
-Manche Modulideen sind groß genug, um zu einer eigenen strukturellen Einheit zu werden.
-
-Dieses Repository existiert, damit solche Ideen nicht als lose Chat-Fragmente liegen bleiben und nicht ohne sauberen Rahmen direkt in die Runtime geschoben werden.
-
-## Struktur
-
-- [`docs/01_scope.md`](docs/01_scope.md) – was dieses Repository ist und was nicht
-- [`docs/02_module_template.md`](docs/02_module_template.md) – Standardform eines Moduleintrags
-- [`docs/03_chain_positioning.md`](docs/03_chain_positioning.md) – wie Modulideen zur Kette stehen
-- [`modules/001_example_module.md`](modules/001_example_module.md) – Beispiel für einen Modulkandidaten
-- [`indexes/by_chain.md`](indexes/by_chain.md) – nach wahrscheinlicher Kettenposition gruppiert
-- [`indexes/by_domain.md`](indexes/by_domain.md) – nach Domäne gruppiert
 
 ## Öffentliche Grenze
 
@@ -54,7 +70,7 @@ Es legt **nicht** offen:
 - aktive Operator-Logik
 - sensible Umsetzungstiefe
 
-Es ist ein öffentlich unbedenklicher Ideenrahmen, keine interne Runtime-Offenlegung.
+Es ist ein öffentlich sicherer Ideenrahmen, keine interne Runtime-Offenlegung.
 
 ## Kontakt
 
