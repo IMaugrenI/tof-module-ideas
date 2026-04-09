@@ -6,6 +6,14 @@ Public idea and candidate repository for larger ToF module concepts that may lat
 
 This repository exists as a public-safe idea and translation space for module-scale concepts before they become real runtime elements.
 
+## why_this_repo_is_public
+
+This repo exists because I do not want module ideas to slide directly into runtime without structure.
+
+It is mainly a structured space for classification, system relation, and early framing.
+
+Compared with the stronger public repos, this is more of a structure space than a proof space. It matters because it shows how I keep order before implementation.
+
 ## At a glance
 
 - captures larger module ideas before implementation
