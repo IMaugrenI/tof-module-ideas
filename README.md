@@ -6,7 +6,7 @@ Public idea and candidate repository for larger ToF module concepts that may lat
 
 This repository exists as a public-safe idea and translation space for module-scale concepts before they become real runtime elements.
 
-## why_this_repo_is_public
+## Why this repo is public
 
 This repo exists because I do not want module ideas to slide directly into runtime without structure.
 
@@ -14,13 +14,11 @@ It is mainly a structured space for classification, system relation, and early f
 
 Compared with the stronger public repos, this is more of a structure space than a proof space. It matters because it shows how I keep order before implementation.
 
-## At a glance
-
----
+## Scale
 
 The public repositories here are the visible edge of a larger private system — 52 Docker containers, self-hosted Linux server, built solo from scratch since March 2025. No team, no IT background, no shortcuts.
 
----
+## At a glance
 
 - captures larger module ideas before implementation
 - describes likely chain position and domain grouping
