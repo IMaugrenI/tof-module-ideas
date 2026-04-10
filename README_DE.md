@@ -1,62 +1,70 @@
 # ToF Module Ideas
 
-> Deutsch ist die Spiegelversion dieses Repositories. Der englische Primärtext liegt in `README.md`.
+> Die englische Hauptfassung liegt in `README.md`.
 
-Öffentliches Ideen- und Kandidaten-Repository für größere ToF-Modulkonzepte, die später zu echten Services, Containern, Workern oder kettenrelevanten Bausteinen werden können.
+Öffentliches Ideen- und Kandidaten-Repo für größere ToF-Modulkonzepte, die später zu echten Diensten, Containern, Workern oder chainweiten Bausteinen werden können.
 
-Dieses Repository dient als öffentlich sicherer Ideen- und Übersetzungsraum für modulgroße Konzepte, bevor sie zu echten Runtime-Elementen werden.
+Dieses Repository existiert als public-safe Ideen- und Übersetzungsraum für modulgroße Konzepte, bevor sie zu echten Runtime-Elementen werden.
 
-## Kurzüberblick
+## Warum dieses Repo öffentlich ist
 
-- sammelt größere Modulideen vor der Umsetzung
-- beschreibt wahrscheinliche Kettenpositionen und Domänenzuordnung
-- hält Offenheit und Unsicherheit vor der Runtime-Übersetzung sichtbar
+Dieses Repo existiert, weil ich nicht will, dass Modulideen direkt ohne Struktur in die Runtime rutschen.
+
+Es ist vor allem ein strukturierter Raum für Einordnung, Systembezug und frühes Framing.
+
+Im Vergleich zu den stärkeren öffentlichen Repos ist das eher ein Strukturraum als ein Beweisraum. Es ist wichtig, weil es zeigt, wie ich Ordnung halte, bevor Implementierung beginnt.
+
+## Auf einen Blick
+
+- hält größere Modulideen fest, bevor sie implementiert werden
+- beschreibt wahrscheinliche Kettenposition und Domänenzuordnung
+- hält Offenheit und Unsicherheit sichtbar, bevor Runtime-Übersetzung beginnt
 - gehört zur breiteren öffentlichen Repo-Familie rund um die private ToF / V’eth-Projektlinie
 
 ## Wofür dieses Repository da ist
 
 Dieses Repository ist ein strukturierter Raum für:
 
-- das Erfassen von Modulideen
-- das Beschreiben einer wahrscheinlichen Kettenposition
+- das Festhalten von Modulideen
+- die Beschreibung wahrscheinlicher Kettenpositionen
 - das Sichtbarmachen von Grenzen
-- das Bewahren von Offenheit vor der Umsetzung
+- das Bewahren von Offenheit vor der Implementierung
 - die Vorbereitung späterer Übersetzung nach V7
 
 ## Kernidee
 
 Manche Modulideen sind groß genug, um zu einer eigenen strukturellen Einheit zu werden.
 
-Dieses Repository existiert, damit solche Ideen nicht als lose Chat-Fragmente liegen bleiben und nicht ohne sauberen Rahmen direkt in die Runtime geschoben werden.
+Dieses Repository existiert, damit solche Ideen nicht als lose Chat-Fragmente liegen bleiben und nicht direkt ohne sauberes Framing in die Runtime geschoben werden.
 
-## Wie dieses Repo in die öffentliche Repo-Familie passt
+## Wie das in die öffentliche Repo-Familie passt
 
-- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) = breiter öffentlicher Projektrahmen und architektonischer Einstiegspunkt
+- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) = breiter öffentlicher Projektrahmen und Architektur-Einstieg
 - [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) = lauffähiger lokaler Builder-Raum
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = lauffähiger lokaler Knowledge-Raum
-- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) = Recovery-/Werkbank-Baseline für älteres gemischtes Material
-- [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) = Bridge-Planning-Baseline für vorbereitete Bausteine
-- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) = engere V7-Grenzlesart
-- dieses Repo = Modul-Kandidatenebene vor der Umsetzung
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = lauffähiger lokaler Wissensraum
+- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) = Recovery-/Werkbank-Basis für älteres gemischtes Material
+- [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) = Bridge-Planning-Basis für vorbereitete Bausteine
+- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) = engerer V7-Grenzrahmen
+- dieses Repo = modulgroße Kandidatenebene vor der Implementierung
 
 ## Struktur
 
-- [`docs/01_scope_DE.md`](docs/01_scope_DE.md) – was dieses Repository ist und was nicht
-- [`docs/02_module_template_DE.md`](docs/02_module_template_DE.md) – Standardform eines Moduleintrags
-- [`docs/03_chain_positioning_DE.md`](docs/03_chain_positioning_DE.md) – wie Modulideen zur Kette stehen
-- [`modules/001_example_module_DE.md`](modules/001_example_module_DE.md) – Beispiel für einen Modulkandidaten
-- [`indexes/by_chain_DE.md`](indexes/by_chain_DE.md) – nach wahrscheinlicher Kettenposition gruppiert
-- [`indexes/by_domain_DE.md`](indexes/by_domain_DE.md) – nach Domäne gruppiert
+- [`docs/01_scope.md`](docs/01_scope.md) – was dieses Repository ist und was nicht
+- [`docs/02_module_template.md`](docs/02_module_template.md) – Standardform eines Moduleintrags
+- [`docs/03_chain_positioning.md`](docs/03_chain_positioning.md) – wie Modulideen zur Kette stehen
+- [`modules/001_example_module.md`](modules/001_example_module.md) – Beispiel für einen Modulkandidaten
+- [`indexes/by_chain.md`](indexes/by_chain.md) – nach wahrscheinlicher Kettenposition gruppiert
+- [`indexes/by_domain.md`](indexes/by_domain.md) – nach Domäne gruppiert
 
 ## Was dieses Repository nicht ist
 
 Dieses Repository ist nicht:
 
 - Runtime-Wahrheit
-- Werkbank-Bergungsausgabe
-- stille Freigabeplanung
-- vollständige Umsetzung
-- Produktiv-Service-Dokumentation
+- Werkbank-Bergungsoutput
+- stille Release-Planung
+- vollständige Implementierung
+- Produktionsdokumentation von Diensten
 
 ## Öffentliche Grenze
 
@@ -64,13 +72,13 @@ Dieses Repository ist bewusst begrenzt.
 
 Es legt **nicht** offen:
 
-- interne Runtime-Mechaniken
-- produktive IDs oder Geheimnisse
+- interne Runtime-Mechanik
+- Produktions-IDs oder Geheimnisse
 - vollständige interne Service-Maps
 - aktive Operator-Logik
-- sensible Umsetzungstiefe
+- sensible Implementierungstiefe
 
-Es ist ein öffentlich sicherer Ideenrahmen, keine interne Runtime-Offenlegung.
+Es ist ein public-safe Ideenrahmen, keine interne Runtime-Offenlegung.
 
 ## Kontakt
 
