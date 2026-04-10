@@ -16,6 +16,12 @@ Compared with the stronger public repos, this is more of a structure space than 
 
 ## At a glance
 
+---
+
+The public repositories here are the visible edge of a larger private system — 52 Docker containers, self-hosted Linux server, built solo from scratch since March 2025. No team, no IT background, no shortcuts.
+
+---
+
 - captures larger module ideas before implementation
 - describes likely chain position and domain grouping
 - keeps openness and uncertainty visible before runtime translation
