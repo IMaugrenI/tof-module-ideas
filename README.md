@@ -1,10 +1,28 @@
 # ToF Module Ideas
 
-> English is the primary text in this repository. A German clone is available in `README_DE.md`.
+> English is the primary text in this repository. A German mirror is available in `README_DE.md`.
 
 Public idea and candidate repository for larger ToF module concepts that may later become real services, containers, workers, or chain-level building blocks.
 
 This repository exists as a public-safe idea and translation space for module-scale concepts before they become real runtime elements.
+
+## What this repo is
+
+This repository is a public method / transition repo for module-scale ideas before implementation.
+
+## Who it is for
+
+This repo is for technical readers who want to see how larger module ideas are framed, classified, and held in a public-safe candidate space before runtime translation.
+
+## What it is not
+
+This repo is not runtime truth, not a product repo, not Werkbank salvage output, and not full implementation.
+
+## Where to go next
+
+- `tof-showcase` — public architecture and product-line overview
+- `tof-legacy-recovery-workbench` — recovery discipline before planning
+- `tof-bridge-planning-method` — bridge-planning after preparation
 
 ## Why this repo is public
 
