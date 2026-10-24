@@ -1,4 +1,4 @@
-# ToF Module Ideas
+# ToF Systems — Modulideen
 
 > Die englische Hauptfassung liegt in `README.md`.
 
@@ -21,7 +21,7 @@ Im Vergleich zu den stärkeren öffentlichen Repos ist das eher ein Strukturraum
 - hält größere Modulideen fest, bevor sie implementiert werden
 - beschreibt wahrscheinliche Kettenposition und Domänenzuordnung
 - hält Offenheit und Unsicherheit sichtbar, bevor Runtime-Übersetzung beginnt
-- gehört zur breiteren öffentlichen Repo-Familie rund um die private ToF / V’eth-Projektlinie
+- gehört zur öffentlichen ToF-Systems-Projektfamilie; die private Entwicklungsumgebung wird hier nicht gespiegelt
 
 ## Wofür dieses Repository da ist
 
@@ -31,7 +31,7 @@ Dieses Repository ist ein strukturierter Raum für:
 - die Beschreibung wahrscheinlicher Kettenpositionen
 - das Sichtbarmachen von Grenzen
 - das Bewahren von Offenheit vor der Implementierung
-- die Vorbereitung späterer Übersetzung nach V7
+- die Vorbereitung einer geprüften Überführung in eine klar definierte Zielarchitektur
 
 ## Kernidee
 
@@ -46,7 +46,7 @@ Dieses Repository existiert, damit solche Ideen nicht als lose Chat-Fragmente li
 - [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = lauffähiger lokaler Wissensraum
 - [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) = Recovery-/Werkbank-Basis für älteres gemischtes Material
 - [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) = Bridge-Planning-Basis für vorbereitete Bausteine
-- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) = engerer V7-Grenzrahmen
+- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) = versionsbezogene Architekturreferenz zu Systemgrenzen
 - dieses Repo = modulgroße Kandidatenebene vor der Implementierung
 
 ## Struktur
