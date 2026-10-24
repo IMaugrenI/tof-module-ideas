@@ -13,7 +13,7 @@ This repository holds module-scale ideas before they become runtime reality.
 - domain grouping
 - rough interfaces
 - boundary statements
-- translation notes toward V7
+- notes for reviewed translation into a defined target architecture
 
 ## Not allowed here as truth claims
 
