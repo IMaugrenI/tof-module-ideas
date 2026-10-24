@@ -40,5 +40,5 @@ What it likely depends on.
 Hidden coupling, privacy, governance, safety, drift.
 
 ## Translation path
-How it could later move toward V7.
+How the candidate could later be evaluated for a defined target architecture, without automatic implementation or release.
 ```
