@@ -2,6 +2,8 @@
 
 > Die englische Hauptfassung liegt in `README.md`.
 
+> **Neu hier?** Lies [START_HERE_DE.md](START_HERE_DE.md). Hier muss nichts installiert werden; dieses Repository ist ein strukturierter Kandidatenraum.
+
 Öffentliches Ideen- und Kandidaten-Repo für größere ToF-Modulkonzepte, die später zu echten Diensten, Containern, Workern oder chainweiten Bausteinen werden können.
 
 Dieses Repository existiert als public-safe Ideen- und Übersetzungsraum für modulgroße Konzepte, bevor sie zu echten Runtime-Elementen werden.

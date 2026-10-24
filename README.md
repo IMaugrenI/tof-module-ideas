@@ -2,6 +2,8 @@
 
 > English is the primary text in this repository. A German mirror is available in `README_DE.md`.
 
+> **New here?** Read [START_HERE.md](START_HERE.md). There is nothing to install; this repository is a structured candidate space.
+
 Public idea and candidate repository for larger ToF module concepts that may later become real services, containers, workers, or chain-level building blocks.
 
 This repository exists as a public-safe idea and translation space for module-scale concepts before they become real runtime elements.
@@ -34,7 +36,7 @@ Compared with the stronger public repos, this is more of a structure space than 
 
 ## Scale
 
-The public repositories here are the visible edge of a larger private system — 52 Docker containers, self-hosted Linux server, built solo from scratch since March 2025. No team, no IT background, no shortcuts.
+The public repositories here are the visible edge of a larger private self-hosted system line that has been developed since March 2025. The exact private runtime shape changes over time and is intentionally not mirrored here.
 
 ## At a glance
 
