@@ -13,7 +13,7 @@ Dieses Repository hält modulgroße Ideen fest, bevor sie zu Runtime-Realität w
 - Domänengruppierungen
 - grobe Schnittstellen
 - Grenzbeschreibungen
-- Übersetzungsnotizen in Richtung V7
+- Hinweise für eine geprüfte Überführung in eine definierte Zielarchitektur
 
 ## Hier nicht als Wahrheitsbehauptung erlaubt
 
