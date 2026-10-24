@@ -1,4 +1,4 @@
-# ToF Module Ideas
+# ToF Systems — Module Ideas
 
 > English is the primary text in this repository. A German mirror is available in `README_DE.md`.
 
@@ -36,14 +36,14 @@ Compared with the stronger public repos, this is more of a structure space than 
 
 ## Scale
 
-The public repositories here are the visible edge of a larger private self-hosted system line that has been developed since March 2025. The exact private runtime shape changes over time and is intentionally not mirrored here.
+The public repositories here are the visible edge of a larger private self-hosted development effort that has been developed since March 2025. The exact private runtime shape changes over time and is intentionally not mirrored here.
 
 ## At a glance
 
 - captures larger module ideas before implementation
 - describes likely chain position and domain grouping
 - keeps openness and uncertainty visible before runtime translation
-- belongs to the broader public repo family around the private ToF / V’eth project line
+- belongs to the public ToF Systems project family; the private development context is not mirrored here
 
 ## What this repository is for
 
@@ -53,7 +53,7 @@ This repository is a structured space for:
 - describing likely chain position
 - making boundaries visible
 - preserving openness before implementation
-- preparing later translation into V7
+- preparing a reviewed translation into a clearly defined target architecture
 
 ## Core idea
 
@@ -68,7 +68,7 @@ This repository exists so those ideas do not stay as loose chat fragments and do
 - [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = runnable local knowledge space
 - [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) = recovery/workbench baseline for older mixed material
 - [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) = bridge-planning baseline for prepared building blocks
-- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) = tighter V7 boundary reading
+- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) = version-tagged architecture reference on system boundaries
 - this repo = module-scale candidate layer before implementation
 
 ## Structure
