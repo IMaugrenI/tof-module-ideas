@@ -40,5 +40,5 @@ Wovon es wahrscheinlich abhängt.
 Versteckte Kopplung, Privacy, Governance, Safety, Drift.
 
 ## Übersetzungspfad
-Wie es später in Richtung V7 überführt werden könnte.
+Wie sich der Kandidat später für eine definierte Zielarchitektur prüfen lässt, ohne automatische Implementierung oder Freigabe.
 ```
